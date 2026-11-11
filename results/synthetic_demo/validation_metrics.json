@@ -1,0 +1,32 @@
+{
+  "checkpoint": "/home/jhw/jhw/FMI高精度分割/APGRA-Net（复件）/release/APGRA-Net/results/synthetic_demo/best.pt",
+  "checkpoint_epoch": 1,
+  "threshold_selected_on_validation": 0.1,
+  "threshold_metric": "dice",
+  "tta_rolls": [],
+  "validation": {
+    "dice": 0.3091568171513308,
+    "dice_std": 0.004164991373185339,
+    "iou": 0.18284539215118295,
+    "iou_std": 0.0029136592346911965,
+    "precision": 0.29106677630655287,
+    "precision_std": 0.03834645986691694,
+    "recall": 0.33541666659678815,
+    "recall_std": 0.04124789556062197,
+    "specificity": 0.9291137005485679,
+    "specificity_std": 0.021597717715945076,
+    "cldice": 0.35524634199354427,
+    "cldice_std": 0.02944415458062358,
+    "boundary_f1": 0.6884961980989928,
+    "boundary_f1_std": 0.049885518048991516,
+    "hd95": 20.776716212602743,
+    "hd95_std": 0.5504891913059285,
+    "assd": 2.810585814737677,
+    "assd_std": 0.1320165782101991,
+    "component_error": 56.5,
+    "component_error_std": 12.020815280171307,
+    "endpoint_error": 79.5,
+    "endpoint_error_std": 26.16295090390226
+  },
+  "test_evaluated": false
+}

@@ -1,0 +1,2 @@
+epoch,train_loss,train_supervised_loss,train_unsupervised_loss,train_pseudo_coverage,train_unsupervised_weight,val_soft_dice,val_dice
+1,1.1302956938743591,1.1233998537063599,0.13791672140359879,0.7086181640625,0.05,0.096817497164011,0.03296703481459501

@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "parameter_count": 60123,
+  "best_epoch": 1,
+  "best_score": 0.096817497164011,
+  "epochs_ran": 1,
+  "initial_checkpoint": null,
+  "used_unlabeled_data": true
+}
