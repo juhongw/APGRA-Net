@@ -1,0 +1,8 @@
+base: structure_all.yaml
+
+project:
+  name: proxy_structure_cracks
+  output_dir: results/proxy_pretrain/structure_cracks
+
+source_data:
+  datasets: [CFD, Crack500, CrackTree200, DeepCrack]

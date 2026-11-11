@@ -1,0 +1,10 @@
+configuration,dice,delta_dice,cldice,boundary_f1,assd
+Without unlabeled target adaptation,0.5973,-0.0124,0.6124,0.6630,10.51
+Without structural proxy initialization,0.5944,-0.0152,0.6026,0.6564,10.98
+Crack-only structural proxies,0.6033,-0.0064,0.6141,0.6649,11.31
+Without azimuth-cycle equivariance,0.5945,-0.0152,0.6083,0.6574,11.71
+Independent hard depth-bin prototypes,0.6049,-0.0047,0.6192,0.6700,10.91
+Image-global prototypes,0.6042,-0.0055,0.6174,0.6665,10.69
+Without prototype-margin gating,0.6006,-0.0090,0.6142,0.6653,11.17
+Without acquisition-support gating,0.6057,-0.0040,0.6225,0.6686,10.76
+APGRA-Net,0.6096,--,0.6259,0.6742,10.48

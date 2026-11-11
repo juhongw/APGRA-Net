@@ -1,0 +1,46 @@
+project:
+  name: proxy_structure_all
+  seed: 3407
+  output_dir: results/proxy_pretrain/structure_all
+
+source_data:
+  root: cache/proxy_320x256
+  datasets: [CFD, Crack500, CrackTree200, DeepCrack, HRF, STARE]
+  height: 320
+  width: 256
+  batch_size: 12
+  num_workers: 6
+  samples_per_domain: 400
+
+model:
+  name: apgranet
+  in_channels: 3
+  num_classes: 2
+  widths: [24, 48, 96, 160]
+  blocks: [1, 2, 2, 2]
+  periodic: false
+  fg_bg_interaction: true
+  prototype_mode: dual
+  foreground_prior: 0.05
+  strip_context: true
+
+loss:
+  ce_weight: 0.6
+  dice_weight: 1.0
+  boundary_weight: 0.0
+  cldice_weight: 0.0
+  contrast_weight: 0.10
+  aux_weight: 0.20
+  foreground_ce_weight: 1.50
+  contrast_temperature: 0.15
+
+optim:
+  epochs: 50
+  lr: 0.0003
+  weight_decay: 0.0001
+  amp: false
+  warmup_epochs: 3
+  early_stopping_patience: 10
+
+eval:
+  boundary_tolerance: 2

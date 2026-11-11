@@ -1,0 +1,2 @@
+{"sample_id": "synthetic_04", "group_id": "synthetic_unlabeled", "session_id": "synthetic_unlabeled", "image_rel": "images/synthetic_04.png", "mask_rel": "masks/synthetic_04.png"}
+{"sample_id": "synthetic_05", "group_id": "synthetic_unlabeled", "session_id": "synthetic_unlabeled", "image_rel": "images/synthetic_05.png", "mask_rel": "masks/synthetic_05.png"}

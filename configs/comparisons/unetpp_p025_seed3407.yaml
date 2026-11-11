@@ -1,0 +1,15 @@
+base: ../adaptation/main_p025_seed3407.yaml
+project:
+  name: comparison_unetpp_p025_seed3407
+  output_dir: results/apgra/comparisons/unetpp_p025_seed3407
+model:
+  name: unetpp
+  in_channels: 3
+  base_channels: 24
+  prototype_mode: none
+loss:
+  contrast_weight: 0.0
+  aux_weight: 0.0
+adaptation:
+  initial_checkpoint: null
+  use_unlabeled: false

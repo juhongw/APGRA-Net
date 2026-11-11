@@ -1,0 +1,7 @@
+base: unetpp_p025_seed3407.yaml
+project:
+  name: comparison_unetpp_p025_seed2025
+  seed: 2025
+  output_dir: results/apgra/comparisons/unetpp_p025_seed2025
+data:
+  manifest_dir: manifests/label_efficiency/p025_seed2025

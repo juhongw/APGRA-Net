@@ -1,0 +1,22 @@
+base: ../adaptation/main_p025_seed3407.yaml
+project:
+  name: comparison_eilnet_p025_seed3407
+  output_dir: results/apgra/comparisons/eilnet_p025_seed3407
+data:
+  input_features: eilnet_four
+  batch_size: 4
+model:
+  name: eilnet
+  in_channels: 4
+  base_channels: 16
+  prototype_mode: none
+loss:
+  contrast_weight: 0.0
+  aux_weight: 0.0
+adaptation:
+  initial_checkpoint: null
+  use_unlabeled: false
+optim:
+  amp: true
+eval:
+  fast_selection: true

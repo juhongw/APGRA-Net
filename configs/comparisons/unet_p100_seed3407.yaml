@@ -1,0 +1,7 @@
+base: unet_p025_seed3407.yaml
+project:
+  name: comparison_unet_p100_seed3407
+  seed: 3407
+  output_dir: results/apgra/comparisons/unet_p100_seed3407
+data:
+  manifest_dir: manifests/label_efficiency/p100_seed3407

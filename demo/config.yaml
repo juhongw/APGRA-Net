@@ -1,0 +1,51 @@
+base: ../configs/adaptation/base.yaml
+
+project:
+  name: synthetic_demo
+  seed: 3407
+  output_dir: results/synthetic_demo
+
+data:
+  root: demo
+  manifest_dir: demo/manifests
+  height: 96
+  width: 64
+  num_workers: 0
+  batch_size: 2
+  depth_mix_probability: 0.0
+  elastic_probability: 0.0
+  depth_scale_probability: 0.0
+  column_drift_probability: 0.0
+  clahe_probability: 0.0
+  blank_augment_probability: 0.0
+
+model:
+  widths: [8, 16, 24, 32]
+  blocks: [1, 1, 1, 1]
+
+loss:
+  cldice_weight: 0.0
+  contrast_weight: 0.0
+  aux_weight: 0.0
+
+adaptation:
+  initial_checkpoint: null
+  use_unlabeled: true
+  prototype_depth_bins: 2
+  prototype_shrinkage_tau: 128.0
+  georesponse_transport_weight: 0.0
+
+optim:
+  epochs: 1
+  lr: 0.001
+  amp: false
+  warmup_epochs: 0
+  early_stopping_patience: 1
+
+eval:
+  fast_selection: true
+  selection_metric: soft_dice
+  threshold_min: 0.1
+  threshold_max: 0.9
+  threshold_step: 0.2
+  save_predictions: true
