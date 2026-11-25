@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use APGRA-Net, please cite the associated article and this software release."
+title: "APGRA-Net: Fracture segmentation in formation microresistivity images"
+type: software
+version: 1.0.0
+date-released: 2026-11-24
+license: MIT
+repository-code: "https://github.com/juhongw/APGRA-Net"
+authors:
+  - family-names: Ju
+    given-names: Hongwei
+  - family-names: Wang
+    given-names: Huafeng
+    email: wanghuafengbuaa@gmail.com
+  - family-names: Wu
+    given-names: Hongliang
+  - family-names: Feng
+    given-names: Zhou
+  - family-names: Zhang
+    given-names: Hao
+  - family-names: Liu
+    given-names: Wanquan
+  - family-names: Tian
+    given-names: Han
+preferred-citation:
+  type: article
+  title: "Fracture Segmentation in Formation Microresistivity Images via Transferable Structural Priors and Azimuthal Periodicity Constraints"
+  journal: "Computers & Geosciences"
+  authors:
+    - family-names: Ju
+      given-names: Hongwei
+    - family-names: Wang
+      given-names: Huafeng
+    - family-names: Wu
+      given-names: Hongliang
+    - family-names: Feng
+      given-names: Zhou
+    - family-names: Zhang
+      given-names: Hao
+    - family-names: Liu
+      given-names: Wanquan
+    - family-names: Tian
+      given-names: Han
