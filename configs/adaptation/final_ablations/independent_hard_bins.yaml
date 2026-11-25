@@ -1,0 +1,6 @@
+base: ../confirmed/apgra_final_p025_seed3407.yaml
+project:
+  name: apgra_final_ablation_independent_hard_bins
+  output_dir: results/apgra/final_ablations/independent_hard_bins
+adaptation:
+  prototype_shrinkage_tau: 0.0

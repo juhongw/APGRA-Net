@@ -1,0 +1,5 @@
+base: base.yaml
+
+project:
+  name: apgra_p025_seed3407
+  output_dir: results/apgra/p025_seed3407

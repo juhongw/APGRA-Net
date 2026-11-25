@@ -1,0 +1,7 @@
+base: unetr_p025_seed3407.yaml
+project:
+  name: comparison_unetr_p025_seed2026
+  seed: 2026
+  output_dir: results/apgra/comparisons/unetr_p025_seed2026
+data:
+  manifest_dir: manifests/label_efficiency/p025_seed2026

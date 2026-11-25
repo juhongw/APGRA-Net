@@ -1,0 +1,6 @@
+base: ../confirmed/apgra_final_p025_seed3407.yaml
+project:
+  name: apgra_final_ablation_global_prototype
+  output_dir: results/apgra/final_ablations/global_prototype
+adaptation:
+  prototype_depth_bins: 1

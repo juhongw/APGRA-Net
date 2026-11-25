@@ -1,0 +1,11 @@
+base: ../base.yaml
+project:
+  name: apgra_final_p025_seed3407
+  seed: 3407
+  output_dir: results/apgra/final/p025_seed3407
+data:
+  manifest_dir: manifests/label_efficiency/p025_seed3407
+adaptation:
+  prototype_depth_bins: 4
+  prototype_shrinkage_tau: 2048.0
+  georesponse_transport_weight: 0.0

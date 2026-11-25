@@ -1,0 +1,6 @@
+base: ../confirmed/apgra_final_p025_seed3407.yaml
+project:
+  name: apgra_final_ablation_no_reliability_filter
+  output_dir: results/apgra/final_ablations/no_reliability_filter
+adaptation:
+  reliability_threshold: 0.0

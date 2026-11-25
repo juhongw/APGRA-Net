@@ -1,0 +1,11 @@
+base: ../base.yaml
+project:
+  name: apgra_final_p100_seed2025
+  seed: 2025
+  output_dir: results/apgra/final/p100_seed2025
+data:
+  manifest_dir: manifests/label_efficiency/p100_seed2025
+adaptation:
+  prototype_depth_bins: 4
+  prototype_shrinkage_tau: 2048.0
+  georesponse_transport_weight: 0.0

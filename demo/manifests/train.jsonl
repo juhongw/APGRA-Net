@@ -1,0 +1,4 @@
+{"sample_id": "synthetic_00", "group_id": "synthetic_train", "session_id": "synthetic_train", "image_rel": "images/synthetic_00.png", "mask_rel": "masks/synthetic_00.png"}
+{"sample_id": "synthetic_01", "group_id": "synthetic_train", "session_id": "synthetic_train", "image_rel": "images/synthetic_01.png", "mask_rel": "masks/synthetic_01.png"}
+{"sample_id": "synthetic_02", "group_id": "synthetic_train", "session_id": "synthetic_train", "image_rel": "images/synthetic_02.png", "mask_rel": "masks/synthetic_02.png"}
+{"sample_id": "synthetic_03", "group_id": "synthetic_train", "session_id": "synthetic_train", "image_rel": "images/synthetic_03.png", "mask_rel": "masks/synthetic_03.png"}
